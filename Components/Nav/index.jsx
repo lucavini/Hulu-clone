@@ -7,6 +7,7 @@ function Nav() {
       {Object.entries(requests).map(([key, { title, url }]) => (
         <h2 key={key}>{title}</h2>
       ))}
+      <div className='fade' />
     </Container>
   );
 }

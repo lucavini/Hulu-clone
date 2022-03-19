@@ -10,7 +10,7 @@ export const Container = styled.div`
   cursor: pointer;
 
   @media (min-width: 500px) {
-    width: 70px;
+    width: 100px;
   }
 
   .MenuIcon {
