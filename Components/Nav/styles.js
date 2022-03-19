@@ -43,7 +43,7 @@ export const Container = styled.nav`
   }
 
   h2 {
-    margin-left: 10%;
+    margin-left: 5%;
 
     @media (min-width: 810px) {
       margin-left: 5%;

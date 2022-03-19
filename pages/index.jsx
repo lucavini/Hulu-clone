@@ -5,8 +5,8 @@ import Nav from '../Components/Nav';
 import Results from '../Components/Results';
 import requests from '../Utils/requests';
 
-export default function Home(props) {
-  
+export default function Home({ response }) {
+
   return (
     <div>
       <Head>
@@ -16,7 +16,7 @@ export default function Home(props) {
 
       <Header />
       <Nav />
-      <Results />
+      <Results results={response.results}/>
     </div>
   );
 }
@@ -33,7 +33,7 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
-      results: response,
+      response,
     },
   };
 }
