@@ -1,5 +1,12 @@
 // libraries
-import { HomeIcon } from '@heroicons/react/outline';
+import {
+  HomeIcon,
+  LightningBoltIcon,
+  BadgeCheckIcon,
+  CollectionIcon,
+  SearchIcon,
+  UserIcon,
+} from '@heroicons/react/outline';
 
 // components
 import Image from 'next/image';
@@ -13,6 +20,11 @@ function Header() {
     <Container>
       <div>
         <HeaderItem title='HOME' Icon={HomeIcon} />
+        <HeaderItem title='TRENDING' Icon={LightningBoltIcon} />
+        <HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} />
+        <HeaderItem title='COLLETIONS' Icon={CollectionIcon} />
+        <HeaderItem title='SEARCH' Icon={SearchIcon} />
+        <HeaderItem title='ACCOUNT' Icon={UserIcon} />
       </div>
 
       <Image
