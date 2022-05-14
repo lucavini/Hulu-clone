@@ -9,7 +9,7 @@ Clique <a href="https://hulu-clone-2-0.vercel.app/">aqui</a> para visualizar a a
 ## ⚙️ Tecnologias e bibliotecas usadas no Projeto
 
 <ul>
-  <li> <a href="https://nextjs.org/">React</a> </li>
+  <li> <a href="https://nextjs.org/">Next.js</a> </li>
   <li> <a href="https://mui.com/getting-started/installation/">Material-UI</a> </li>
 </ul>
 
